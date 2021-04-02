@@ -11,14 +11,12 @@
 @import "components/footer";
 
 
-@media (max-width: 1024px) {
-  @import "../scss/parts/tablet";
+
+
+@media (max-width: 1220px) {
+  @import "../scss/parts/desktop-xs";
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 768px) {
   @import "../scss/parts/mobile";
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  @import "../scss/parts/mobile_xs";
 }

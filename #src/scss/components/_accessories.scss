@@ -14,11 +14,11 @@
       margin: 6px 0 18px;
       letter-spacing: 1px;
       text-transform: uppercase;
-      color: var(--color-black);
+      color: var(--color-blue);
       transition: 0.3s ease;
 
       &:hover {
-        color: var(--color-blue);
+        color: var(--color-black);
       }
     }
   }

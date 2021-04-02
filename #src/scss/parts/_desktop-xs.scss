@@ -1,0 +1,68 @@
+.container {
+  padding: 0 30px;
+  max-width: 1024px;
+}
+
+.main {
+  .slider {
+    &-img {
+      max-height: 315px;
+    }
+
+    &-text {
+      right: 0;
+    }
+
+    &-text-promo {
+      font-size: 35px;
+
+      &-b {
+        font-size: 120px;
+      }
+    }
+  }
+
+
+}
+
+.accessories {
+  padding: 15px 0 15px;
+
+  &__container {
+    justify-content: center;
+  }
+
+  &__list {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  &__content {
+    &:last-child {
+      display: none;
+    }
+  }
+}
+
+.footer {
+  padding: 10px 0 30px;
+
+  &__container {
+    align-items: center;
+  }
+
+  &-block {
+    width: 70%;
+    margin-top: 30px;
+    justify-content: space-between;
+
+    &__logo {
+      justify-content: center;
+    }
+
+    &:last-child {
+      padding: 0;
+    }
+  }
+}
+
