@@ -1,5 +1,29 @@
 .accessories {
-  &_container {
-    padding: 0;
+  padding: 15px 0;
+
+  &__container {
+    justify-content: space-between;
+  }
+  &__list {
+    padding: 85px 0;
+
+    &-item {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 100%;
+      margin: 6px 0 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--color-black);
+      transition: 0.3s ease;
+
+      &:hover {
+        color: var(--color-blue);
+      }
+    }
+  }
+
+  &__img {
+    max-width: 600px;
   }
 }
